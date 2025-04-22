@@ -1,0 +1,7 @@
+setInterval(() => {
+    document.querySelectorAll('.item__133bf').forEach(el => {
+        if (el.innerText.trim().toUpperCase() === "ADD FRIEND") {
+            el.innerText = "add friend!";
+        }
+    });
+}, 500);
